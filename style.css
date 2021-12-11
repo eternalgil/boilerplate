@@ -7,7 +7,7 @@ body {
 }
 .header {
     padding: 0 45px;
-    background-color: #b92321;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -33,4 +33,50 @@ body {
 }
 .nav li {
     margin-left: 20px;
+}
+.hero {
+    background-color: pink;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+}
+.hero-inner {
+   max-width: 760;
+}
+.hero h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+.button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+.features {
+    background-color: thistle;
+    padding: 60px 45px;
+}
+.features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 24px;
+}
+.feature-item {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.feature-item p {
+    margin: 0;
+    line-height: 1.4;
 }
