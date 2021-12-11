@@ -1,0 +1,21 @@
+* {
+
+}
+.header {
+    background-color: #b92321;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.nav {
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.nav a {
+    color: white;
+}
