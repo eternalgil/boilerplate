@@ -1,7 +1,12 @@
 * {
 
 }
+body {
+    margin: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .header {
+    padding: 0 45px;
     background-color: #b92321;
     color: white;
     display: flex;
@@ -18,4 +23,14 @@
 }
 .nav a {
     color: white;
+    text-decoration: none;
+    display: block;
+}
+.nav a:hover {
+    color: pink;
+    transform: rotate(6deg);
+    transition: all 0.3s ease-out;
+}
+.nav li {
+    margin-left: 20px;
 }
