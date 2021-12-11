@@ -28,7 +28,7 @@ body {
 }
 .nav a:hover {
     color: pink;
-    transform: rotate(6deg);
+    transform: rotate(7deg);
     transition: all 0.3s ease-out;
 }
 .nav li {
@@ -41,12 +41,14 @@ body {
     justify-content: center;
 }
 .hero-inner {
-   max-width: 760;
+   max-width: 800px;
 }
 .hero h1 {
     font-weight: normal;
     font-size: 4rem;
     margin: 0;
+    text-transform: uppercase;
+    
 }
 .hero p {
     font-size: 1.18rem;
@@ -79,4 +81,9 @@ body {
 .feature-item p {
     margin: 0;
     line-height: 1.4;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: .9rem;
 }
